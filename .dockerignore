@@ -1,0 +1,11 @@
+# Exclude log files
+logs/
+# Exclude the datasets folder
+datasets/
+# Exclude development files and directories
+.git/
+.vscode/
+.idea/
+
+# Exclude temporary files
+*.tmp
