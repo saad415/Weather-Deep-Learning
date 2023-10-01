@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ## Run
 
-To run following command:
+To run flask app use following command:
 ```console
 python app.py
 ```
