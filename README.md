@@ -8,7 +8,7 @@
 - [Technical Aspect](#technical-aspect)
 - [Installation](#installation)
 - [Run](#run)
-- [Deployment on Render](#deployment-on-heroku)
+- [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
 
 ## Demo
