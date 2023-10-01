@@ -49,7 +49,7 @@ python app.py
 ```
 You'll see output indicating that the Flask development server is running. By default, the app will be available at http://localhost:5000.
 
-## Deployment on Render
+## Deployment
 
 The Flask application is containerized using Docker for ease of deployment and scalability. I chose Render.com for hosting my flask application docker image.
 
