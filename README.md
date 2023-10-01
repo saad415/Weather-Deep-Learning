@@ -18,7 +18,7 @@ Link: https://weatherdeeplearning.onrender.com/ (Website might take 2-3 minutes 
 
 ## Overview
 
-This is simple weather image classification Flask app trained on the top of pretrained VGG-16 model.This classifier can identify whether an image depicts "Cloudy," "Foggy," "Rainy," "Sunny," "Shine," or "Sunrise." 
+This is simple weather image classification Flask app trained on the top of pretrained VGG-16 model.This classifier takes picture(showcasing weather) and identify whether an image depicts "Cloudy," "Foggy," "Rainy," "Sunny," "Shine," or "Sunrise." 
 
 ## Motivation
 
@@ -26,15 +26,13 @@ The motivation behind creating this Image Classifier was to provide a user-frien
 
 ## Technical Aspect
 
-Our Weather Image Classifier harnesses the power of deep learning and computer vision. Here's how it works:
+My Weather Image Classifier harnesses the power of deep learning and computer vision. Here's how it works:
 
-Pretrained VGG16 Model: We utilized the VGG16 model, a well-established convolutional neural network (CNN), pretrained on a large dataset. This model serves as a feature extractor to identify crucial visual patterns within the images.
+Pretrained VGG16 Model: I utilized the VGG16 model, a well-established convolutional neural network (CNN), pretrained on a large dataset. This model serves as a feature extractor to identify crucial visual patterns within the images.
 
-Custom Dataset Training: To enable the classifier to recognize specific weather conditions, we trained it on a custom dataset containing diverse images of different weather scenarios. This step involved fine-tuning the VGG16 model on our dataset to adapt it to the task at hand.
+Custom Dataset Training: To enable the classifier to recognize specific weather conditions, i trained it on a custom dataset containing diverse images of different weather scenarios. This step involved fine-tuning the VGG16 model on my dataset to adapt it to the task at hand.
 
-Flask Web Application: We developed a user-friendly web application using Flask, a Python web framework. This app allows users to upload images for weather classification.
-
-Deployment with Docker: The Flask application is containerized using Docker for ease of deployment and scalability. We chose Render.com as our hosting platform, providing a seamless and reliable web service.
+Flask Web Application: I developed a user-friendly web application using Flask, a Python web framework. This app allows users to upload images for weather classification.
 
 ## Installation
 
@@ -42,7 +40,6 @@ To install the required packages and libraries, run this command in the project 
 ```console
 pip install -r requirements.txt
 ```
-
 
 ## Run
 
@@ -55,7 +52,6 @@ You'll see output indicating that the Flask development server is running. By de
 ## Deployment on Render
 
 The Flask application is containerized using Docker for ease of deployment and scalability. I chose Render.com for hosting my flask application docker image.
-
 
 ## Technologies Used
 
