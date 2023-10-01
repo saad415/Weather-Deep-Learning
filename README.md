@@ -1,4 +1,4 @@
-# Weather Deep Learning Image Classifier 🇮🇳
+# Weather Deep Learning Image Classifier 
 
 ## Table of Contents
 
