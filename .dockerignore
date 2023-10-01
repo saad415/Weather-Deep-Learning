@@ -9,3 +9,4 @@ datasets/
 
 # Exclude temporary files
 *.tmp
+uploads/
