@@ -1,4 +1,4 @@
-# Indian Paper Currency Classification 🇮🇳
+# Weather Deep Learning Image Classifier 🇮🇳
 
 ## Table of Contents
 
